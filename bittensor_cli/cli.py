@@ -3650,7 +3650,7 @@ class CLIManager:
             )
         if not wallet_hotkey:
             wallet_hotkey = Prompt.ask(
-                f"Enter the the name of the [{COLORS.G.HK}]new hotkey",
+                f"Enter the name of the [{COLORS.G.HK}]new hotkey",
                 default=self.config.get("wallet_hotkey") or defaults.wallet.hotkey,
             )
 
